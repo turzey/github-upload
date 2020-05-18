@@ -1,0 +1,7 @@
+Cmd + D
+ctrl + backtick button : used to get in the terminal
+HTML:5 + TAB buttons .
+
+trick on working on project in visual Studio
+
+windows button + > : pops out emajis and differents characters

@@ -1,0 +1,53 @@
+pw 
+start . 
+cd 
+ls 
+
+
+
+$ pwd # print working directory, ie. the folder that you are currently in.
+$ open . # this is for Mac only.On a Window's PC try "start ." instead of open
+$ ls # Stands for list, will show you what's in you're current folder.
+$ cd Desktop # change you're location to 'Desktop.' 
+$ cd .. # Go back to the folder behind the current folder.
+$ cd ~ # Go back to main directory.
+$ clear # clears everything above. ( test&cls or cls: this command works for my computer)
+$ mkdir python # creates a folder called Python.
+
+
+ipconfig :  about the pc ip address
+whoami : pops out details about the computer , user
+prompt : customise the interface of the command line
+prompt /? : shows how it can be customizable
+help : pop us a bunch of different commands
+cd .. : get back to the initial desktop
+ctrl + c : used to stop a local server on the run .
+
+
+ADDING A PROJECT ON GITHUB :
+git init  : initializes a repository up on github
+git status
+Type git status. This will tell you that index.html is an untracked file.
+
+git add
+The way you add files to a commit is that they have to go through two stages: being staged and then being committed. Type git add index.html. This will make index.html staged and ready to be committed. Type git status and it will show index.html as a change ready to be committed. You can also type git add . to make everything in this directory staged, or type git add -A to add everything and include anything you deleted to also be deleted from the repo.
+
+git commit
+Type git commit -m "My first commit". It should tell you added your first commit. Type git status and it should tell you you haven't changed anything since last commit. The -m is important because each commit must have a message with it and it's best to say what you did in that commit, something like "fixed this bug" or "added this feature". If you forget the -m it'll probably throw you into vim, so be prepared!
+
+git log
+Type git log now to see your commit immortalized in the git repository (or repo, which is what you call each git project.)
+
+ if they want to (since it's their repo) and will merge it or not.
+
+GIT COMMANDS FROM UNDER THE HOOD.
+
+Git cat-file -t : it print the type of the object
+
+git cat-file -p : print the content of the object .
+
+tree .git : pops up the storage references under the hood .
+cat .git/HEAD : HEAD is usually a pointer to the current branch
+
+Types of Objects are blob , Trees , Commits.
+

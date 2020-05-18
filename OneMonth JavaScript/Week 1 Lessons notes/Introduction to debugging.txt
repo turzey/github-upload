@@ -1,0 +1,58 @@
+One thing you can be sure of when coding: you will encounter bugs. Let's learn how to deal with them. In this lesson, we look at various tools available to help us in debugging our code. You will learn how to log out messages to your browser's console and how to use the Developer Tools available in your browser to inspect and identify issues in your code.
+
+Debugging is the unglamorous, but no less badass coding skills you will need to have to realize your developer dreams. Debugging is about identifying and problem solving issues in your code so your software runs the way you intend it.
+
+In this lesson, we're going to look at how you can use the Console in your browser's Inspector to identify where an issue is occurring in your code so you know where to look when fixing it.
+
+index.html
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Oprah Likes You. And so do other people.</title>
+
+		<style>
+
+			/* Basic CSS comment */
+			body {
+				background: grey;
+				color: white;
+				width: 960px;
+				margin: 0 auto;
+				font-size: 30px;
+				color: black;
+			}
+
+			h1 {
+				font-size: 80px;
+				color: #333	;
+			}
+
+		</style>
+
+		<script>
+
+			/* this is an event */
+			/* alert("I'm annoying"); */
+
+			var username = prompt("Hello, who are you?");
+			var car = new Array("BMW", "Saab", "Maserati");
+			console.log(car);
+
+			if(username==="Chris") {
+				document.write("<h1>Hello " + username + " you won a " + car[1] + "!</h1>");
+			}
+			else {
+				document.write("<h1>Hello " + username + "!");
+			}
+
+		</script>
+
+	</head>
+
+	<body>
+		<img src="oprah.jpg" alt="Oprah">
+	</body>
+
+</html>
+Dark logo @2x

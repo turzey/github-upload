@@ -1,0 +1,3 @@
+At some point, you are going to have to write code that displays some output to the user. In JavaScript, you can write to the DOM (Document Object Model—we'll cover the DOM later, but basically, what's written to the DOM determines what's shown in the browser) using the document.write() function.
+
+Print - Allows you to put things on the screen.

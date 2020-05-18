@@ -1,0 +1,67 @@
+Day one : november 13 .
+download desktop.github.com to discover new features.
+
+Github for Mobile : IOS AND Android .
+
+check out for this guy David Zurow who codes with his voice , it's an open source project on github.
+
+Github Archive Program : 
+-Internet Archive 
+-Software Heritage 
+-The Long Now Foundation
+-Stanford Libraries 
+-Research Project Silica (Microsoft)
+
+
+wraping up :
+
+Code to Cloud : Github Actions, Github Packages.
+
+Daily Experience : Code Navigation and Code Search, Code Review Assignment and Scheduled Reminders, Github Entreprise 2.19
+New Notifications, Github Mobile.
+
+Community : Github Sponsors , Sponsored Projects , Github Archive Program
+Giyhub Artic Code Vault.
+
+
+Day 2 Notes :  Getting involved in the Ecosystem
+Security lab 
+CodeQL;(will be release for free)
+-vulnerability
+
+                                 f5                       Google
+Parters :                                                 
+                                                         intel
+-Security tooling                hackerone               j.p.Morgan
+- Researcher time                IOActive                moz://a
+-Bounties                        Linkedin
+                                 Microsoft                nccgroup
+                                 okta                     TrailofBITS
+
+                                            Uber.
+
+aecuritylab.github.com @ghsecuritylab.
+
+Github Actions
+
+partners : 
+LaunchDarkly   mabl       ClouFlare
+CodeClimate    circleci   jira Software
+GorillaStack   cloudbees  codefresh
+GitKraken      codecov    twilio
+HarshiCorp     Atlassian  sonarsource
+Ansible        jFrog      coveralls
+
+Managing Manufacturing (TerraForm : allows to diploy in multiple platform so simply )
+
+WhiteSource ( continues Security scanning )
+Twillio ( build communication )
+
+Github mission ( be the home for developers worlwide)
+
+AWS Container Services Landscape ( for deploying and Running Containers)
+simple Demo : MYTHICAL MYSFITS
+
+
+mabl ( create automated test end to end browser easy )
+

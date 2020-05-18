@@ -1,0 +1,4 @@
+Event in JavaScript.
+JavaScript in the browser uses an event-driven programming model. An event is a signal that something has happened. Examples of events are the page completing loading, a user clicking on a button, hovering on an element, typing into an input box, submitting a form, etc. JavaScript enables you to respond to events using Event Handlers. You can attach an event handler to the HTML element for which you want to respond to when a specific event occurs.
+
+Events - any action that causes something else to happen. ie: When you refresh the page, a pop-up pops up. Or when you click a button, a form submits.

@@ -1,0 +1,159 @@
+*Tips about loading pages on websites .
+
+. always insert the script tag at the end right the end of body ; for reasons like speed and a better user experience as soon as the user sees it the design first, and then can interact with it.
+
+
+Code Explanation Calculator . 
+
+1.let runningTotal= 0;
+2.let buffer = "0";
+3.let previousOperator = null //nothing has been initially assigned ;
+
+8 .const screen = document.querySelector(".screen");
+4.document.querySelector('.calc-buttons').addEventListener("click",function(event) {
+buttonClick(event.target.InnerText);
+            
+})
+
+5.function buttonClick(value) {
+   if (isNaN (parseInt(value))) {
+       handleSymbol(value);
+  
+    }else {
+     handleNumber(value);
+   }
+  6.rerender(); // rerender should always be called after every single button click
+}
+
+function handleNumber(value) {
+  if (buffer === "0" ) {
+ buffer = value;
+
+} else {
+buffer += value
+
+
+9 .function handleSymbol(value){
+ switch (value) {
+   case 'C' :
+   buffer = 0;
+   runnungTotal = 0;
+   previousOperator = null;
+   break;
+  case "=":
+    if (previousOperator === null) {
+    
+     return ; // means skip all the operation and return
+
+   }
+  10.  flushOperation(parseInt(buffer));
+       previousOperator = null;
+       buffer = " " + runningTotal; // it keeps buffer as a string type every time 
+       runningTotal = 0;
+       break ;
+       
+      case "◀"
+       if (buffer.length === 1 ) {
+
+       buffer = "0"  // whenever the user the this sign is going to be zero
+      }  else  {
+           buffer = buffer.substring (0, buffer.length-1) ;
+          }
+
+      break;
+   default :
+
+      handleMath(Value);
+      break ;
+      
+       
+ } 
+}
+
+11. function handleMath (value) {
+
+const intBuffer = parseInt(Buffer); // it's a representation of what's on the Screen
+ if (runningTotal=== 0) {
+     
+   runningTotal = intBuffer;
+
+    } else {
+      flushOperation(intBuffer);
+   }
+  previousOperator = value ; // the value is stored into previous operator
+   
+  buffer = "0" // then buffer is assigned to zero cause we are ready for the next user input
+
+}
+
+function flushOperation(intBuffer) {      // what the flushOperation does can be done with a switch statement or an if statement here we're going for an if satement
+
+
+    if (previousOperator === "+" ) {
+     runningTotal += intBuffer ;
+
+   }else if (previousOperator === "-" ) {
+     runningTotal -= intBuffer ;
+  } else if (previousOperator === "x" ) {
+     runningTotal x= intBuffer ;
+
+   } else {
+      running  /=  intBuffer;
+
+}
+
+7.function rerender () {
+screen.innerText = buffer;
+ 
+}
+
+
+
+1.
+1. runningTotal is where the operation in the calculator takes place , at the begining is set to      0.
+2.buffer ; as the user types in number in the calculator these number has to be tracked  that's why is defined by let buffer . (so the buffer is waiting for user inputs)
+let buffer = "0" is assigned as a string to begin with 
+
+3.let previousOperator is for example when the user clicks the one of the operator which is place ex; 12+ 8 . the user has clicked + previously before clicking 8 , and that action needs to be tracked.
+
+4.document.querySelector('.calc-buttons').addEventListener("click", function(event) {
+here the event listener listen to the top level of the container in html set to calc-buttons
+
+buttonClick(event.target.InnerText) what this function call does is to  take some sort  of value declacared in line 5 where the function is defined with its parameters.
+
+5.the buttonClick checks if what has been clicked is not a number it passes Int to that clicked and handles the symbol 
+
+else , which means is a number it handles it by calling a function handleNumber    which takes a parameter  like if what the user types is equal to 0 assign what it has typed else a number other than zero add that number after the previous number clicked
+
+6. function rerender is called  in case any changes
+7. and its parameters are  assigned
+
+9. the parameter of the handleSymbol functions are defined based on symbols.
+
+
+GodIsfaithFul243/*?
+
+
+Generating a public key :
+
+Your identification has been saved in C:\Users\User/.ssh/id_rsa.
+Your public key has been saved in C:\Users\User/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:jXrZ88LJCbjJzXNT7qO7F6NY8A3hV0Vblc97n55Jf+k benidibatia@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|               oB|
+|          .   ..o|
+|         . . . o.|
+|        .oo .   o|
+|       .So.+    .|
+|      ...oo =  ..|
+|     ..=o*o* o .=|
+|      +.= Xo+ .o*|
+|         o+Oo.oEo|
++----[SHA256]-----+
+
+my passphrase is jesus is god 
+
+
+

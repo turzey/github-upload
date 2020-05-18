@@ -1,0 +1,694 @@
+css animation API ; 
+
+Backdrop Filter  visual effect.
+
+css.registerproperty() ;
+
+
+Fast Loading and interactivity : 
+
+
+PageSpeed Insight 
+
+Web almac .
+web platform ; web frameworks .
+
+the web frameworks : Zeit .
+
+site kit for wordpress.
+
+SMS receiver API / google.SmSreceiverApi
+
+web authentification and how to prevent yourself from falling for a fishing attack .
+authenticators for web development :
+1.Roaming Authenticators 
+Need to get a security key ( developer sandbox : there is an identity security key to get there for free of charge)
+
+platform authenticators 
+
+Find more resourcecs on :
+goo.gle/FIDO
+goo.gle/webAuthnReauthCodelab
+webauthn.guide.
+
+Speed tooling evolutions and beyond .
+PageSpeed insight API.
+Lighthoude CI .
+
+6. Adaptive loading - improving the UX for millions on low-end devices :
+(media loading , code serving , data fetching ) 
+if you want to build a fast site, use slow hardware.
+style console.log (
+console.log("%cHeyyy %s", css, 'chrome Dev summit!');
+Adaptive loading React Hooks (bit.ly/react-adaptive
+adaptive media loading 
+Adaptive Module Serving - The Future ?
+Network-aware Code-splitting
+Adaptive Serving ( ebay are kinda doing it well )
+CPU core-aware Resource Loading .
+adaptive Data-fetching & pre-fetching 
+( ex : one exemple of a company that is using this pattern is Tinderweb and Tinder Lite )
+
+cna-memory-animation.firebaseapp.com
+
+how does Facebook tackles adaptive loading on low devices .
+
+here are the steps they took :
+Define buckets
+Integrate buckets into logging
+Adapt loading based on buckets .
+
+
+Grouping Hardware on Mobile
+  Mobile UserAgents tell us what the device is 
+
+On desktop things aren't so obvious...
+Grouping Hardware on Desktop
+
+fb5 site .
+
+load fast vs respond fast.
+
+
+7.Next-generation web styling 
+
+scroll-snap .
+focus .(styling with focus )
+prefers-reduced-motion ( Hook to pacify movement for sensitive folks)
+
+prefers-color-scheme (hook to adapt your UI to be easier on the eyes of a user )
+*no-preference
+*light
+*dark
+
+Sticky situations 
+  keeping UI within the viewport 
+
+link to check out all the ressources ( a.nerdy.dev/css-at-cds ) sandbox .
+
+8.PWA and the installable web ( meeting user expectations native experience )
+
+Manifest tooling 
+
+PWABuilder 
+Create React App, other frameworks 
+we.dev more : web.dev/add-manifest
+trusted web activity 
+
+promote your PWA, but not to your native app users :
+
+https://web.dev/get-installed-related-apps/for details 
+learn more information on the query promoting install
+OYO Mobile web
+exemple of a PWA squoosh.app
+
+9. Bridging the native app gap  
+chrome OS .
+
+Fugujournal (Analyse what's this start up is doing )
+fuguedit. 
+Web share Target V2 and Contacts APIs
+
+https://wicg.github.io/native-file-system 
+avrgirl 
+web serial : 
+
+to keep up with all of this it is a good idea to go to goo.gle/fugu-api-tracker
+Request a capability : webwewant.fyi
+
+10. Intent to explain : demystifying the blink shipping process . 
+webwewant.fyi : it's about sharing ideas on how to contribute on the expansion of the web.
+discourse.wicg.io : discussion forum . a platform where developers can share struggles about their jobs.
+ 
+these are the 4 steps that an API needs to follow before being shipped.
+
+1.Research the problem 
+2. Design & Prototype 
+3. Experiment & Iterate 
+4. ship or not to ship
+
+Takeaways  ( what develepers might do and understand)
+.Chromium is a large open-source projet
+.chromium and standards processes work together 
+.it's all done in public 
+.we'd love for you to get involved , take a step forward contributing in the project.
+WICG : WICG.IO
+
+11. HTML isn't done ! 
+
+new feature : 
+form controld .
+<progress >  bar 
+<meter > 
+
+there is a need to enable the Web Platform Controls update UI flag.by following about://flags.
+before seeing new features work
+
+<range>
+<checkbox>and<radio> 
+
+12. Advancing the web framework ecosystem : 
+how to improve 
+
+developers rely most on open-source tooling 
+such as ; 
+client side framework
+static site generators 
+
+why use a web framework ?
+it helps the developer to build productive apps
+
+web franeworks are positioned to inform performance and UX.
+
+what is the difference between UI framework  or library VS web framework : 
+UI framework like Vue.js , React.js they tend to be agnostic to a lot of the concerns mentionned earlier about why developer need 
+to use web framework in order to build productive apps.
+
+On the other hand Web framework having fuller featured frameworks in the ecosystems like; Next , Nuxt , Gatsby.
+
+if building a new app it is most suitable to reach for a full-featured web framework so that developers on the team can focus on what matters most for them
+
+Wait, why Next.js ?
+1. most used today 
+
+last messages : 
+if you are an app developer please consider reaching for fuller-featured web framework
+instead of only thinking about the bare-bones UI framework it will enable your team to focus on features and be more productive.
+
+if you're a UI framework or a web developer , a web-framework developer, please reach out and consider investing some time in a partenership with us.
+your input on web platform APIs are really needed .
+collaborations are two ways efforts and they really look forward to deepen it with Vue,Ember,Svelte, etc.
+there is a way to apply for the frameworks fund while working on oneselves projects ( especially web-frameworks developers)
+
+13. Oh the things you'll compile (modern WebAssembly )
+
+what 
+
+openCV.js
+bit.ly/emcc-opencv.
+
+
+
+* intent to prototype 
+*step 3 intent to experiment and iterate 
+developers.chrome.com/origintrials.
+
+*step 4 shipping ( intent to ship )
+11.In which we make loading disappear with portal and friends.
+12.Speed tooling evolutions 2019 and beyond .
+web.dev.
+
+14.Web as a building block for user experience.
+
+the web superpower :
+Capable 
+
+TensorFlow.js
+yahoo!Lifestyle,
+
+<mode-viewer ar
+   alt="A 3D model of a plant."
+   src="Plant.gltf">
+</model-viewer>
+
+superpower for a web : 
+the web ability to be introperable to render to all type of browser.
+
+ The web is embedable 
+
+AutoCAD
+AUTODESK.
+Figma
+
+Last Superpower for a web : Transformative 
+15.Chrome extensions and the world of tomorrow.
+chromium-extensions Google Group.
+bit.ly/crx-gg
+
+Manifest V3 Migration Guide
+bit.ly/mv3-migration 
+
+the links up are there to try new extensions and try to migrate them in chrome.
+16. Protecting users  on a thriving web
+
+where you are on the web ; Demystifying site identity .
+GLOBAL sites identity
+
+Google's "Private join and Compute" goo.gle/private-join-and-compute
+google's Federated Learning research : federated.withgoogle.com
+
+whitepaper :
+goo.gle/cookie-blocking-revenue
+
+publisher's advertising removing personalization.
+
+stopping cross-site tracking 
+goo.gle/privacy- budget
+
+chromium blog goo.gle/samesite-none-secure
+
+we need yoyr help 
+to reach a world without tracking : goo.gle/privacy-sandbox
+
+18. Designing or speed and hacking user perception : 
+source:hbr.org
+www.chrisharrison.net
+The code: 
+github.com/GoogleChromeLabs/squoosh.
+
+speed matters on the mobile web; but PERCEPTION OF SPEED is just as important.
+
+Affordance and text buttons : 
+Makinb buttons looks like buttons.
+
+*Make the navigation Items recognizable
+
+Progression : Designing for friction ; giving the an indication of how long it takes to load
+
+Youtube animates its progress bar at a speed most pages take to load...
+it then "hangs" towards the end until the page loads.
+source: medium.com/google-design/
+
+Mask transitions : instead of showing a spinner, brief animations can mask the loading transition
+ to imply that the system is "progressing" rather than "processing"
+Much more detail at : bit.ly/speedebook
+
+PWA Ebook : WEB: bit.ly/pwawebbook
+PDF : bit.ly/pwaebook       ( Progressive Web Apps The Future of the Mobile Web.)
+
+UX Course : bit.ly/mobileUXdesign   ( Basics of mobile UX ; design and prototyping )
+
+19. PWAs and capability highlights.
+Improving the installability of your web app
+
+what can web install do ?
+*Integrate into native launch surfaces 
+*Integrate into native task switcher
+*Integrate into native settings & permissions.
+*Integrate into native features such as content sharing or clipboards.
+
+Making the web more capable
+
+journaling .
+" Oiur users want to start a journal entry from anywhere on their device, and they want to share their entries to their other
+social accounts. They also want to colloborate on entries with their friends, so they need to be able to invite them to do so easily. 
+ -Quinn, FuguJournal ( fugu-journal.web.app , fugu-edit.web.app , webwewant.fyi )
+
+Maximized performance from the CPU.
+ Threads 
+ SIMD ( Single instruction Multiple data )
+Wasm Vs Wasn SIMD on Galaxy s10.
+Using asynchronous APIs
+
+JavaScript - WebAssembly - Web APIs  - Async task
+
+20. Speed highlights 
+ * User insights with new metrics 
+ 
+              Performance metrics : >2019
+Lab and field metric availability  ( find more documentation about metrics on web.dev/metrics/ )
+Shipping today ! 
+Lighthouse CI 0.3- alpha 
+   bit.ly/lhci
+   bit.ly/lhci-action.
+Improving Web Performance for milliuons of users .
+Adaptive Loading React Hooks bit.ly/react-adaptive
+ adaptive Module Serving - The Future ?
+
+  Angular : UX & DX wins 
+Framework Fund 
+   opencollective.com/chrome                     Next.js + 
+1. Improved chunking                     
+  Barnebys.com 
+   Largest JS bundle reduced by 30 %
+
+
+Browser polyfilling 
+babel-preset-es2015  _- @babel/preset-env
+                   
+                @babel/preset-modules (experimental )     github.com/babel/preset-modules 
+
+Making loading disappear : <portal>
+First, check if your browser supports <portal>
+
+// check if <portal> is available 
+if (!'HTMLPortalElement' in window)) {
+ return ;
+}
+
+Creating a <portal>  element 
+
+// Create and append the element 
+const portal = document.CreateElement('portal');
+portal.src = '/bar.html';
+portal.style = '...';
+document.body.appendChild9portal) ; 
+
+Adding transitionsl animation 
+
+portal.addEventListener('click', - => {
+
+   //portal.activate()
+
+   // animate before activate
+   // it can be CSS transition,
+   // keyframes or even JavaScript 
+     doSomeFancyAnimation(portal);
+});
+
+The four APIs 
+ Portals 
+ Periodic BG Sync
+ Content Indexing 
+ Web bundle.
+
+21.Ready Player Web : Building modern web games .
+http://bit.ly/io-space
+
+22.3D, VR and AR on the web 
+
+WebXR Device API .
+Enable XR experiences for the Web.
+
+learn more at github.com/immersive-web/webxr 
+enables web developers to create VR for mobile devices and toddles .
+
+VR will soon land on the web,
+WebXR will ship in Chrome,Firefox Reality, and Oculus Browser in late 2019 
+is AVAILABLE on chrome 79 BETA.
+
+Three.js 
+A helper library for web 3D 
+
+Learn more at threejs.org
+webXR Emulator 
+   Test immersive VR sites with emulated XR hardware from your desktop browser .
+
+
+Learn more at : blog.mozvr.com/webxr-emulator-extension 
+                      Enables web developers to test XR from their desktop.
+<model-viewer>
+Easily display interactive 3D models on the web & in AR 
+Learn more at modelviewer.dev
+
+source : nasa.gov
+source : efleakids.com
+
+community group : 
+learn more at github.com/immersive-web/
+
+Gamepad Controller Registry : 
+Display the right controllers for each XR system 
+Learn more at github.com/immersive-web/webxr-input-profiles. 
+23 . The gift of giving up .
+Developer Experience vs User Experience 
+ aka " don't let perfect be the enemy of good"
+
+Prototyping : 
+ and your choice of tech stack ; before you decide on a new technology or technical stack
+
+Ship Early, Ship Often ; 
+ get your code in front of real users , you always want to evaluate your new project in front of real users.
+
+Remember : your users don't care about your development stack.
+           Build a prototype to validate your choices .
+           Ship what you can to real users .
+
+24.Trust & Safety highlights : 
+ google.secure-login.com
+ accounts.com/goolgle.com/secure
+ accounts.www-google.com
+
+25. The powerful web
+
+Ethical principles for the powerful web.
+https://permission.site is a publicly avaible sandbox for testing chrome permissions.
+Principles of good permission request UX
+
+1.Only ask for access you really need.
+2.Be clear and specific about what you need and why in advance of prompting.
+3.Prompt at a contextually relevant moment in the user's journey.
+4.Degrade gracefully, if a user ignores or blocks a permission, make sure your experience still works.
+5.If blocked or ignored permission is needed to use a feature of your app, make this obvious to your users, but don't get in the way of other features that don't need permissions to work
+
+ Keeping these principles in mind during the app design makes your journey better.
+
+User-first interactive sites with AMP.
+
+
+DON'T :
+-Ask the user if they want to allow push notifications as soon as they land on your website.
+In the future, chrome will minify the push permission prompt for sites with very low web push accept rates. you can test out this out in chrome canary by enabling the quieter notification permission prompts flag.
+- Prompt for location permission without user context.
+- Prompt for mic or camera access without explicitly indicating how it will be used in advance.
+
+
+   for example, user's may not know why they're being asked for their location if there's no map or location UI visible in your page.
+DO : Prompt for notification permission when there is a clear user benefit and context.
+
+ - prompts for location permission after explicit user action.
+
+26. Success from the frontline .
+
+HealthCare moving to cloud 
+
+Challenges ; That progressive web apps can address .
+
+Progressive Web Applications : bEYOND THE HYPE OF PWAs 
+
+Progressive web apps are like any other web ap. The difference is how they adopt progressive features, such as Service Workers and Web
+App Manifest to deliver native-like capabilities, reliability, and installability , reaching anyone, anywhere , on any device , with a single codebase.
+
+
+28.Chrome's ecosystem collaboration .
+   How we work with standards .
+
+29.WebP in its 10th year .
+   Faster loading images with webP
+ documentation : Developer website  https://developers.google.com/speed/webp
+   caniuse.com : provide information about new web technologies and how they're used today. 
+
+  Ecosystem :  Android Studio, squoosh , Gimp , ImageMagick
+
+30. You should focus - supporting different devices on the web.
+squoosh.app.
+proxx.app        .whenever building an application we need to think about 
+different devices 
+
+documentation : 
+         
+             
+31. what's new in canvas - Offscreen canvas and Text Metric use cases.
+What is Canvas ?
+
+*Canvas is a popular drawing API
+* Drawback : All computation are on main thread.
+* Result : Slow page performance .
+
+What is OffscreenCanvas ?
+
+* Offscreen Canvas : Can be detached from DOM and sent to a WebWorker.
+* Workers can be run parallel to the main thread.
+* OffscreenCanvas renders to canvas automatically .
+
+bitmaprenderer 
+
+* ImageBitmapRenderingContext is now available on OffscreenCanvas ! 
+ex : ctx = offscreenCanvas.getContext("bitmaprenderer")
+
+Performance differences between Canvas Vs OFFscreenCanvas .
+
+Coding with ScreenCanvas. 
+ Exemple : save the following in a worker.js 
+ function getGradientColor(percent) {
+    const Canvas = new OffscrenCanvas(100 , 1) ;
+    const ctx = canvas.getContext('2d');
+    const gradient = ctx.createLinearGradient ( 0, 0 , canvas.width, 0);
+    
+    gradient.addColorStop(0, 'red');
+
+    ctx.fillStyle = gradient;
+
+    ctx.fillRect( 0, 0, ctx.canvas.width, 1);
+    
+    const imgd = ctx.getImageData(0,  0, ctx.canvas.width, 1);
+    const colors = imgd.data.slice(percent * 4, percent * 4 + 4);
+
+    return 'rgba(${colors[0]}, ${colors[1]}, ${colors[2]}, ${colors[]}';
+}
+
+
+34.Faster apps with JSON.parse
+
+ Server-side Rendering .
+
+Const data = { foo:42, bar:1337, ...};   (slow!)
+
+// ...is equivalent to : 
+
+Conat data = JSON.parse ('{ " foo " : 42, "bar" : 1337, ...}') ; (faster)
+
+goo.gle/json-parse-bench
+
+  How all of this work in real life app :
+   Redux app case study 
+         goo.gle/jason-parse-redux
+           *TTI Improved by18 % 
+            * Lighthouse perf score : 87 --> 95
+
+How do i apply this optimization?
+ spoiler : not by hand 
+Tooling Support 
+Don't do it  by hand!
+
+* goo.gle/json-parse-webpack
+* goo.gle/json-parse-babel 
+   for more javaScript , check out : 
+      gooo.gle/cost-of-js  blog.
+
+35 .  Facilitating payments on the web .
+
+<label for="ccname">Name</label>
+<input name="ccname" autocomplete="cc-name"     .../>
+
+<label for="cardnumber">Card number</label>
+<input name="cardnumber" autocomplete="cc-name"     .../>
+
+<label for="cc-exp">Expiry</label>
+<input name="cc-exp" autocomplete="cc-exp"     .../>
+
+<label for="cc-cvc">CVC</label>
+<input name="cc-cvc" autocomplete="cc-csc"   .../>
+
+
+Autofill:
+
+https://goo.gle/33byAM6
+
+https://goo.gle/2qznCmu
+
+Google Pay for Web:
+Overview: https://goo.gle/34bl3Wa
+Codelab: https://goo.gle/3471s9O
+Register for early access: https://goo.gle/2O94vsn
+
+
+Google shop for programmers swagg.
+   AnviL
+
+36.What's new in material Design for the web .
+
+https://getmdl.io/
+https://material.io/
+
+37.Tools for fast Angular applications .
+
+ learn more about all the techniques at web.dev/angular
+
+
+38.Blending PWA into native environments.
+
+Multiplying development efforts 
+    
+           PWA / Web          Android               IOS
+
+            Home                Home              Home
+            Category            Category          Category
+            Product             Product           Product
+            
+
+
+39.Developing for entreprise with chrome 
+chromestatus.com/features/schedule.
+
+Accessing the Builds 
+
+Current builds can be downloaded from : talks.page.link/chromium/dev-channel
+you can also download the standalone installers from : talks.page.link/chrome-entreprise-downloads.
+
+Tools &  Automation :
+- Puppeteer 
+- Lighthouse .
+
+where to report issues :  crbug.com 
+40.5 tips to make your PWA stand out 
+
+ 1. Dare o be offline
+ 2.use device storage wisely
+ 3.Embrace multi device journeys
+ 4.Bring your users with you.
+ 5.Before of Service Workers.
+https://developers.google.com/web/fundamentals/app-install-banners
+
+41.Web development on chrome OS
+
+  chrome books are awesome ; kmown for being lighthouse, fast .
+Development on Device 
+ *Visual Code Atom, webstorm, Sublime.
+ * Node.js, React , Angular , Docker
+ * Test on Device with multiple browsers 
+ *Chrome Firefox, Opera.
+Prepare dev environment 
+  Set your linux environment for web development .
+cros.page.link/web-dev
+42. Machine Learning magic for your web application with TensorFlow.js
+
+TensorFlow.js
+
+*A library for Machine Learning in javaScript.
+*Use in the browser or with Node.js
+
+ Build JS applications in minutes 
+   Use ML with javascript (web, native, or server-side)
+
+Learn more:
+TensorFlow.js → https://goo.gle/2XLhMe0
+Tensorflow.js Github → https://goo.gle/2DcgLCe
+teachablemachine.withgoogle.com
+
+tensorflow.org/js
+github.com/tensorflow/tfjs
+
+  AR Virtual Product Try-on
+ Modiface Needs :
+  * Client side for latency privacy
+  *10fps performance
+  
+Google Lip sync
+
+Handtrack.js
+face-api.js
+43.Predictive prefetching for the web
+   
+Prefetching strategies
+ *Prefetch all
+ *visible links
+ *On mouse over
+ *predicitive prefetching 
+
+How predictive prefetching works 
+ 1.Application usage report
+ 2.Data analytics/ML model 
+ 3.Web app with instant transitions.
+
+  github.com/guess-js
+  Guess.js 
+
+ Case Study where predictive prefetching is used .
+  Search and Find Latest jobs in Pakistan 
+   mustakbil.com
+
+Learn more on :
+  web.dev/link.prefetch
+  web.dev/predictive-prefetching
+44. Live at CDS 19 -askchrome. 
+
+
+
+
+
+
+
+
+36. What's new in Material Design for the web.
+37. Tools for fast Angular applications

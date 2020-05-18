@@ -1,0 +1,9 @@
+In programming, a function is a named section of a program that performs a specific task. A function groups together one or more program statements that perform some operation(s) and optionally return a value.
+
+Functions - a function is something that has a bunch of sub-steps and we use a word to represent it, which allows us to do complex things with much less code.
+
+In this lesson we'll be using the prompt() function to get input from a usclou
+
+serveless cloud
+applications are way better
+than server app.

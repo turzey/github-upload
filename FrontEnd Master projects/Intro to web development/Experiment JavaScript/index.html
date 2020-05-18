@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JavaScript Experiments</title>
+</head>
+<body>
+  <h1>JavaScript Experiments!</h1>
+  <script src="./experiments.js"></script>
+
+  <!--here goes the experiment about the DOM interaction-->
+
+  <style>
+      .red-square {
+          width: 100px;
+          height: 100px;
+          background-color: crimson;
+      }
+  </style>
+
+  <div class="red-square">
+
+  </div>
+
+  <button class="event-button">
+       Click me!
+      
+       
+     </button>
+
+     <!--here goes an input form -->
+
+     <input placeholder="type into me!" class="input-to-copy" />
+     <p class="p-to-copy-to">Nothing has happened yet.</p>
+
+
+
+
+     <!--an example of CHANGE event-->
+
+     <div class="color-box">
+
+     </div>
+
+     <input class="color-input" placeholder="type a color here!" >
+
+
+     <!--Event Delegation-->
+
+     <div class="button-container">
+         <button>1</button>
+         <button>2</button>
+         <button>3</button>
+         <button>4</button>
+         <button>5</button>
+     </div>
+
+  <script>
+      const redSquare = document.querySelectorAll('.red-square') ;
+      redSquare[0].style.paddingLeft = 'limegreen' ;
+
+      // down here is the reaction to a user action on a click button
+
+      const button = document.querySelector('.event-button') ;
+
+      button.addEventListener('click',function () {
+
+          alert("Hey  there ! you just clicked on me") ;
+      });
+
+
+      // input form 
+
+      //const input = document.querySelector('.input-to-copy');
+      //const paragraph = document.querySelector('.p-to-copy-to') ;
+
+
+      //input.addEventListener("keydown" , function() {
+
+       // paragraph.innerText = input.Value ;
+     // }) ;
+
+
+      //CHANGE event
+
+      const input = document.querySelector('.color-input') ;
+      const paragraph = document.querySelector('.color-box') ;
+
+
+      input.addEventListener("change" , function() {
+
+        paragraph.style.backgroundColor = input.Value;
+      });
+
+
+
+
+      // Event Delegation
+
+      document.querySelector('.button-container').addEventListener('click' , function(event) {
+
+            alert(`You clicked on button ${event.target.innerText}`) ;
+
+      }) ;
+
+  </script>
+
+</body>
+</html>

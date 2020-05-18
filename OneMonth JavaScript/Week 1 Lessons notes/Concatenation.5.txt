@@ -1,0 +1,3 @@
+Concatenation (or concat for short) is a way of combining the text of two strings together into a variable. Watch the example in this video—as it's much easier to understand when you see it in action.
+
+Concatenation is about putting things together. For example, the concatenation of "snow" and "ball" is "snowball".
